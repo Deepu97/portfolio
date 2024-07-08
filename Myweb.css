@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+   
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .nev {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    z-index: 12;
+  }
+  ul {
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+  }
+  .nevList {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+  }
+  .nevList:hover{
+    color: yellowgreen;
+    cursor: pointer;
+    
+  }
+
+  #head {
+    padding-left: 3rem;
+    font-size: 22px;
+    color: rgb(20, 214, 20);
+  }
+  #pera {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #web {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(22, 156, 22);
+  }
+  #pera,
+  #web {
+    padding: 7px;
+  }
+  .btn {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 7px;
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+  }
+  .btn1 {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 7px;
+    color: white;
+    background-color: black;
+  }
+  #quote {
+    width: 20rem;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #main p {
+    padding: 1rem;
+  }
+  #main{
+    position: relative;
+    right:10rem;
+    
+  }
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  
+  }
+  #img {
+    border-radius: 4rem;
+  }
+  #explore{
+    text-align: center;
+  }
+  .border{
+    border:1px solid black;
+    width:26rem;
+    border-radius: 2rem;
+    outline: none;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 3px 3px black;
+    background-color: rgb(250, 238, 238);
+  }
+  .border h3{
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .skill{
+    font-size: 22px;
+    margin:7px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .level{
+    color: gray;
+    text-align: center;
+  }
+  .box{
+    padding: 2rem;
+margin-top: 2rem;
+ display: grid;
+ grid-template-columns: 40px 40px ;
+ gap:10rem;
+  }
+  .box2{
+  display: grid;
+  grid-template-columns: 40px 40px;
+  gap: 10rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  }
+  
+  .seprate{
+    display: flex;
+   gap:8rem;
+   padding: 1rem;
+   justify-content: center;
+  }
+  .move{
+    margin-top: 4rem;
+  }
+   .middle{
+        display: flex;
+        justify-content:center ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1{
+      border: 1px solid rgb(46, 45, 45);
+      width:30rem;
+      height: 30rem;
+      display: flex;
+      background-color: rgb(216, 219, 202);
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    }
+  #pro1{
+  width: 20rem; 
+   border-radius: 2rem;
+   margin-top: 3rem;
+  }
+  .lembo{
+    width:8rem;
+    height: 3rem;
+    font-weight: bolder;
+      border-radius: 2rem;
+      border: 1px solid black;
+      margin:3rem;
+      cursor: pointer;
+  }
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+#pictu{
+  width:17rem;
+  height: 240px;
+  border-radius: 3rem;
+}
+.project1{
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+ padding: 2rem;
+ box-shadow: 1px 5px 14px 4px;
+
+  
+}
+.def{
+  position: relative;
+  top: 3rem;
+}
+.changebtn{
+  width:8rem;
+ margin: 2rem;
+  height: 3rem;
+  font-weight: bolder;
+  border-radius: 2rem;
+  border:1px solid black;
+  box-shadow: 1px 1px 2px black;
+
+}
+.changebtn:hover{
+  background-color: darkmagenta;
+  color:white;
+  box-shadow: 2px 2px 3px black;
+}
+
+.beauty{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.project1 h1{
+  margin-top: 1rem;
+}
+.next{
+  margin-top: 6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project p{
+  color: rgb(112, 108, 108);
+  font-weight: 400;
+}
+.hide{
+  display: none;
+}
+#click{
+  display: none;
+}
+#ques{
+  text-align: center;
+}
+.fnq{
+  margin-top: 5rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(204,219,232) 3px 3px 6px 0px inset,rgba(255,255,255,0.5) -3px -3px 6px 1px inset;
+  border-radius: 2rem;
+
+  font-family: 'Times New Roman', Times, serif;
+}
+.class{
+  
+  border-radius: 1rem;
+  width:50rem;
+  height: 7rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 2px 2px 14px 5px black;
+  padding: 12px;
+  cursor: pointer;
+}
+.bro{
+ 
+  font-size: 22px;
+}
+.my{
+  border-top: 1px solid black;
+  margin-top: 1rem;
+ border-radius: 12px;
+  background:rgb(124, 124, 204) ;
+  font-size: 22px;
+text-align: center;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+ 
+}
+#plus{
+ margin-right: 2rem;
+ font-weight: bolder;
+ font-size: 35px;
+ color: green;
+}
+.num{
+  display:flex;
+}
+/* about css*/
+#turn{
+  height: 25rem;
+  border-radius: 13px;
+  
+}
+.about1{
+  display: flex;
+  margin-top: 5rem;
+  width:60rem;
+justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#volo{
+  color: rgb(5, 168, 168);
+  font-weight: bold;
+}
+#lorem{
+  line-height: 2;
+  color: rgb(43, 226, 134);
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width:29rem;
+  font-size: 22px;
+}
+.iron{
+  width: 30rem;
+}
+.job{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.hell{
+  width:10rem;
+  font-weight: bold;
+}
+.phoneInfo{
+  margin-top: 3.5rem;
+}
+.belt{
+ margin-top: 6rem;
+  width:60rem;
+    height: 40rem;
+  background-color: rgb(107, 104, 104);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ #me{
+  text-align: center;
+  color: floralwhite;
+  margin-top: 4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.inp3{
+  width: 40rem;
+  height: 3rem;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid rgb(110, 101, 101);
+  margin: 1rem;
+  cursor: pointer;
+  background-color: gray;
+ 
+  padding: 14px;
+  font-size: 18px;
+
+
+}
+.inp3::placeholder{
+  color: white;
+  
+  
+ 
+}
+#text{
+  border-radius: 12px;
+  background-color: rgb(92, 88, 88);
+  font-size: 30px;
+  padding: 15px;
+  cursor: pointer;
+  margin: 1rem;
+}
+#text::placeholder{
+  padding: 1rem;
+  font-size: 22px;
+
+}
+#ranbo{
+  width:8rem;
+  height: 3rem;
+  background:rgb(255, 10, 91);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+/* footer*/
+.footerWeb{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  margin-top: 3rem;
+ 
+  width: 70rem;
+  height: 7rem;
+  background-color: rgb(177, 64, 212);
+}
+.foot{
+
+
+ 
+ font-weight: bolder;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+.spa{
+  font-weight: bold;
+  margin: 12px;
+}
+.footimg{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ margin-top:1rem ;
+ gap: 3rem;
+
+}
+#undo{
+  display: flex;
+  gap: 4rem;
+}
+#copy{
+  font-size: 20px;
+  font-weight: bold;
+}
+.footerImg{
+  width:3rem;
+  height: 3rem;
+  
+}
+.battry{
+  list-style-type: none;
+  
+}
+   
+@media(max-width:414px){
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .nev{
+    display: none;
+  }
+
+  .meanu{
+    display: block;
+    font-size: 50px;  
+  }
+  #click{
+    height: 100%;
+    width:100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap:0;
+   padding-bottom: 2rem;
+
+  }
+  #list{
+    width: 8rem;
+   border-bottom: 1px solid purple;
+    font-size: 30px;
+  
+
+    align-items: center;
+    cursor: pointer;
+    margin: 2rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+
+  .hide{
+    display: block;
+   
+ 
+   margin-left: 15rem;
+  
+   
+    
+  }
+  .clickHide{
+    background-color: greenyellow;
+    z-index: 999;
+    position: fixed;
+    margin-top: 1rem;
+    color:black;
+    display: flex;
+    padding: 3rem;
+    width: 100vw;
+
+   
+  }
+
+  .ul{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  #pera{
+    font-size: 15px;
+  }
+  #web{
+    font-size: 15px;
+
+  }
+  #quote{
+    font-size: 10px;
+  }
+  #img{
+    width: 100px;
+    margin: 0;
+   position: relative;
+   right: 3rem;
+  }
+
+#main {
+position: relative;
+right: 0;
+left: 1.5rem;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+
+}
+#anchor{
+  width:22rem;
+  position: relative;
+ height: 28rem;
+ 
+  padding: 7px;
+}
+
+.seprate{
+  display: flex;
+  align-items: center;
+   flex-wrap: wrap;
+   padding: 0;
+}
+.skill{
+  font-size: 15px;
+}
+.border{
+  width: 22rem;
+  height: 25rem;
+}
+.box{
+padding: 0;
+display: grid;
+grid-template-columns: 110px 20px;
+gap:5rem;
+
+
+}
+.box2{
+  display: grid;
+  grid-template-columns: 40px 40px;
+}
+.beauty{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width:100%;
+  
+}
+.iron{
+  width: 20rem;
+}
+#lorem{
+  font-size: 20px;
+  
+}
+#turn{
+  width:7rem;
+  height: 6rem;
+}
+#siz{
+  font-size: 15px;
+}
+.class{
+  width:20rem;
+  height: 10rem;
+  
+}
+.belt{
+  width:23rem;
+  margin-left:2rem ;
+}
+.inp3{
+  width:20rem
+}
+#text{
+  width:20rem;
+}
+#copy{font-size: 15px;}
+.footerWeb{
+  border-radius: 0;
+  max-width: 27rem;
+  margin-left: 1rem;
+}
+#copy{
+  font-size: 15px;
+}
+.footimg{
+  display: flex;
+  
+  gap:12px;
+}
+#undo{
+  display: flex;
+  gap:12px;
+}
+}
